@@ -26,6 +26,8 @@ void draw(){
   ellipse(200, 200, 25, 25);
   ellipse(290, 200, 25, 25);
   
-  //Mouth
+  //Mouth & Nose
   fill(0, 0, 0);
+  ellipse(250, 320, 20, 20);
+  ellipse(240, 250, 35, 35);
 }

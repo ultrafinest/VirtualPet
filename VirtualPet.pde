@@ -14,14 +14,19 @@ void draw(){
   ellipse(200, 115, 30, 100);
   ellipse(300, 115, 30, 100);
   
-  //Body & eyes
+  //Body & Legs
   fill(300, 150, 220);
+  ellipse(340, 365, 100, 225);
+  ellipse (260, 370, 230, 350);
   ellipse(250, 250, 180, 260);
+  fill(80, 80, 80);
+  ellipse(210, 490, 100, 60);
+  ellipse(300, 490, 100, 60);
+  
+  //Eyes & Pupils
   fill(0, 0, 0);
   ellipse(200, 200, 45, 45);
   ellipse(290, 200, 45, 45);
-  
-  //Pupils
   fill(180, 180, 180);
   ellipse(200, 200, 25, 25);
   ellipse(290, 200, 25, 25);
